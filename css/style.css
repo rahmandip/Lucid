@@ -1,0 +1,114 @@
+* { margin: 0px; padding: 0px; }
+header { background-image: url("../images/banner.png"); background-repeat: no-repeat; background-position: center top; background-size: cover; }
+.navbar-light .navbar-brand:hover{
+    color: rgb(255 255 255 / 90%);
+}
+.navbar-light .navbar-brand { color: rgb(255, 255, 255); text-transform: uppercase; font-size: 25px; margin: auto; }
+.container-fluid span { color: rgb(84, 84, 84); line-height: 12px; font-size: 10px; margin-left: 5px; margin-top: 8px; }
+.navbar-light .navbar-nav .nav-link { color: rgb(255, 255, 255); position: relative; padding: 0px; margin: 10px; }
+.navbar-light .navbar-nav .nav-link:hover { color: rgb(255, 255, 255); }
+.navbar-light .navbar-nav .nav-link::after { content: ""; position: absolute; width: 0%; height: 2px; background: rgb(0, 142, 214); left: 0px; top: 100%; transition: all 0.5s ease-in-out 0s; }
+.navbar-light .navbar-nav .nav-link::before { content: ""; position: absolute; width: 0%; height: 2px; background: rgb(0, 142, 214); right: 0px; top: 100%; transition: all 0.5s ease-in-out 0s; }
+.navbar-light .navbar-nav .nav-link:hover::after { width: 46%; }
+.navbar-light .navbar-nav .nav-link:hover::before { width: 46%; }
+.banner-content { position: relative; min-height: 80vh; align-items: center; margin: auto; }
+.banner-content h5 { color: rgb(0, 142, 214); text-transform: uppercase; margin: 10px 0px; }
+.banner-content h1 { color: rgb(255, 255, 255); text-transform: capitalize; font-size: 50px; line-height: 50px; padding: 0px; margin: 10px 0px; }
+.banner-content p { color: rgb(135, 135, 135); font-size: 16px; line-height: 25px; margin: 15px 0px; }
+.btn-download { color: rgb(255, 255, 255); text-transform: uppercase; border: 1px solid rgb(114, 114, 114); background: transparent; padding: 10px; border-radius: 5px; font-size: 20px; font-weight: 400; transition: all 0.5s ease-in-out 0s; }
+.btn-features { color: rgb(255, 255, 255); text-transform: uppercase; border: 1px solid rgb(114, 114, 114); background: transparent; padding: 10px; margin: 0px 15px; border-radius: 5px; font-weight: 500; font-size: 16px; transition: all 0.5s ease-in-out 0s; }
+.btn-download:hover { background: rgb(0, 142, 214); color: rgb(255, 255, 255); border: 1px dotted; }
+.btn-features:hover { background: rgb(0, 142, 214); color: rgb(255, 255, 255); border: 1px solid; }
+.phone { position: absolute; bottom: 0px; left: 55%; width: 50%; }
+.phone img { }
+.features { }
+.heading { }
+.heading h4 { font-size: 15px; color: rgb(0, 142, 214); text-transform: uppercase; font-weight: 700; }
+.heading h1 { text-transform: uppercase; margin-bottom: 0px; margin-left: 0px; color: rgb(0, 0, 0); }
+.heading h5 { text-transform: uppercase; color: rgb(0, 142, 214); font-size: 15px; }
+.heading span { position: relative; display: inline-block; width: 60px; height: 2px; padding: 0px; margin: 0px; }
+.heading span::before { content: ""; position: absolute; width: 0%; height: 100%; left: 0px; top: 0px; transition: all 0.5s ease-in-out 0s; }
+.heading span::after { content: ""; position: absolute; width: 0%; height: 100%; right: 0px; top: 0px; background: rgb(0, 144, 215); transition: all 0.5s ease-in-out 0s; }
+.features:hover .heading span::before { width: 47%; background: rgb(0, 144, 215); }
+.features:hover .heading span::after { width: 47%; background: rgb(0, 144, 215); }
+.features-content { }
+.features-content img { width: 25%; }
+.features-content h3 { text-transform: uppercase; font-size: 20px; margin: 10px 0px; }
+.features-content p { font-size: 16px; color: rgb(110, 110, 110); }
+.details1 { }
+.aligndetails { align-items: center; }
+.details1 p { color: rgb(122, 122, 122); }
+.details1:hover .heading span::before { width: 47%; background: rgb(0, 144, 215); }
+.details1:hover .heading span::after { width: 47%; background: rgb(0, 144, 215); }
+.detail { display: flex; width: 58%; justify-content: space-between; margin: 10px 0px; line-height: 35px; }
+.icons1 { list-style: none; padding: 0px; margin: 0px; color: rgb(0, 142, 214); }
+.icons1-details { list-style: none; padding: 0px; display: inline; margin: 0px; }
+.icons1-details li { text-transform: uppercase; }
+.details2 { background: rgb(242, 242, 242); margin-top: 100px; }
+.details2 p { }
+.details2 h2 { margin: 80px 0px 0px; }
+.details { align-items: center; }
+.details2:hover .heading span::before { width: 47%; background: rgb(0, 144, 215); }
+.details2:hover .heading span::after { width: 47%; background: rgb(0, 144, 215); }
+.pricing { background-image: url("../images/slider-cover.png"); background-position: center top; background-repeat: no-repeat; background-size: cover; }
+.pricing-heading { padding: 30px 0px; }
+.pricing:hover .heading span::before { width: 47%; background: rgb(0, 144, 215); }
+.pricing .heading h1 { color: rgb(255, 255, 255); }
+.pricing:hover .heading span::after { width: 47%; background: rgb(0, 144, 215); }
+.pricing p { color: rgb(255, 255, 255); font-style: italic; margin: 20px 0px; }
+.client { display: flex; width: 45%; height: 130px; justify-content: space-between; align-items: center; }
+.client-img { width: 92px; height: 92px; border: 1px solid; border-radius: 60%; overflow: hidden; }
+.client-img img { height: 100px; width: 100%; }
+.client-details { color: rgb(255, 255, 255); }
+.client-details h2 { }
+.client-details h5 { }
+.testimonial { min-height: 50vh; align-items: center; }
+.owl-dots .owl-dot span { height: 10px; width: 10px; background: rgb(109, 109, 109); display: block; border-radius: 50px; margin: 10px; }
+.owl-dots { display: flex; justify-content: center; align-items: center; margin-top: 30px; }
+.owl-dots .active span { height: 15px; width: 15px; }
+.like { background: rgb(21, 20, 26); }
+.like-left { min-height: 25vh; align-items: center; }
+.like-left h1 { color: rgb(255, 255, 255); font-size: 30px; }
+.like-btn { display: flex; align-items: center; justify-content: right; width: 41%; }
+.bill-head:hover .heading span::after { width: 47%; background: rgb(0, 144, 215); }
+.bill-head:hover .heading span::before { width: 47%; background: rgb(0, 144, 215); }
+.bill-part { border: 1px solid rgb(221, 221, 221); text-align: center; }
+.bill-heading { padding: 15px; border-bottom: 1px solid rgb(221, 221, 221); }
+.bill-heading h1 { }
+.inner-price { padding: 25px; border-bottom: 1px solid rgb(221, 221, 221); }
+.inner-price sup { }
+.inner-price h1 { color: rgb(0, 0, 0); }
+.inner-price p { color: rgb(85, 85, 85); }
+.bill-part .bill-info { margin-bottom: 20px; }
+.bill-info p { color: rgb(98, 98, 98); padding: 15px; }
+.bill-part .bill-info a { text-transform: uppercase; font-weight: 500; padding: 5px 22px; }
+.btn-primary { background: transparent; color: rgb(0, 142, 214); border-color: rgb(194, 194, 194); }
+.bill-part:hover .bill-heading h1 { color: rgb(0, 142, 214); }
+.bill-part:hover .inner-price { background-color: rgb(0, 142, 214); }
+.bill-part:hover .inner-price h1 { color: rgb(255, 255, 255); background-color: rgb(0, 142, 214); }
+.bill-part:hover .inner-price p { color: rgb(212, 211, 211); }
+.bill-part:hover .btn-primary { color: rgb(255, 255, 255); background: rgb(0, 142, 214); }
+.contact:hover .heading span::after { width: 47%; background: rgb(0, 144, 215); }
+.contact:hover .heading span::before { width: 47%; background: rgb(0, 144, 215); }
+.contact { background: center center / cover no-repeat rgb(237, 237, 237); min-height: 110vh; position: relative; }
+.contact-info { text-align: center; }
+.contact-info h1 i { color: rgb(0, 142, 214); }
+.contact-info p { color: rgb(153, 153, 153); }
+.map { width: 100%; }
+.form-section { background: rgb(21, 20, 26); }
+form input { padding: 8px 30px; margin: 13px 18px; background: transparent; border: 1px solid rgb(68, 67, 72); }
+form input[type="submit"] { display: block; margin: 10px; color: rgb(255, 255, 255); padding: 5px 10px; background: rgb(0, 142, 214); font-weight: 600; }
+form textarea { margin: 10px; background: transparent; }
+.form-part { align-items: center; margin: auto; padding: 30px 0px; }
+.form-starts { position: absolute; left: 50%; top: 45%; transform: translateX(-50%); }
+.contact-head h1 { font-size: 25px; padding: 5px; }
+.contact-head p { font-size: 12px; line-height: 10px; font-weight: 500; }
+footer { background: rgb(21, 20, 26); }
+footer p {color: rgb(68, 67, 72);text-align: center;}
+.social-icon {min-height: 15vh;align-items: center;}
+.social-icon ul { list-style: none; display: flex; width: 60%; justify-content: space-evenly; margin: auto; padding: 12px 0px; text-decoration: none; color: rgb(68, 67, 72); }
+.social-icon ul li a { color: rgb(68, 67, 72); }
+.social-icon ul li a i { }
+.social-icon li a:hover{
+    color: #008ed6;
+}
